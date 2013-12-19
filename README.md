@@ -1,15 +1,28 @@
-android端的DBF文件的解析
-调用如下
+Analyze DFB File in Android
+====================================
+
+此demo用于在ANDROID端解析.DBF文件,将其中内容以ListMap形式返回.
+
+Author
+--------
+zhiwenluo , if any question , email me : zhiwenluo@hustunique.com
+
+Constructor
+--------
+调用如下:
 
         public static String path =Environment.getExternalStorageDirectory() + "/rw.dbf";
 
         ParseDbf2Map parseDbf2Map = new ParseDbf2Map();
 
         List<Map<String, String>> list = parseDbf2Map.getListMapFromDbf(path);
+        
 
+Return
+--------
 返回的是ListMap类型
 
-你可以这样来查看获得的内容：
+你可以这样来查看获得的内容:
 
         if (list != null) {
             for (int i = 0; i < list.size(); i++) {
@@ -19,8 +32,10 @@ android端的DBF文件的解析
                    }
             }
         }
-        
-当需要添加数据的时候，调用此方法：
+
+Other Method
+--------        
+当需要添加数据的时候，调用此方法:
 
         //DBF文件的数据添加
           public  void addItem(String[] str) throws Exception {
