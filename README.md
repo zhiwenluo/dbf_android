@@ -1,11 +1,12 @@
 Analyze DFB File in Android
 ====================================
 
-此demo用于在ANDROID端解析.DBF文件,将其中内容以ListMap形式返回.
+此demo用于在ANDROID端解析**.DBF**文件,将其中内容以**ListMap**形式返回.
 
 Author
 --------
-zhiwenluo , if any question , email me : zhiwenluo@hustunique.com
+ **zhiwenluo** 
+- if any question , email me : **zhiwenluo@hustunique.com**
 
 Constructor
 --------
@@ -20,7 +21,7 @@ Constructor
 
 Return
 --------
-返回的是ListMap类型
+返回的是**ListMap**类型
 
 你可以这样来查看获得的内容:
 
@@ -35,7 +36,7 @@ Return
 
 Other Method
 --------        
-当需要添加数据的时候，调用此方法:
+当需要**添加数据**的时候，调用此方法:
 
         //DBF文件的数据添加
           public  void addItem(String[] str) throws Exception {
