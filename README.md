@@ -1,12 +1,12 @@
 Analyze DFB File in Android
 ====================================
 
-此demo用于在ANDROID端解析**.DBF**文件,将其中内容以**ListMap**形式返回.
+此DEMO用于在ANDROID端解析**.DBF**文件,将其中内容以**ListMap**形式返回.
 
 Author
 --------
  **zhiwenluo** 
-- if any question , email me : **zhiwenluo@hustunique.com**
+- If any question , email me : **zhiwenluo@hustunique.com**
 
 Constructor
 --------
